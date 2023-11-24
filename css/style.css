@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+.body{
+    perspective: 700px;
+}
+.navbar{
+    width: 99%;
+    height: 80;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    opacity: 0.7;   
+}
+.navbar-toggler{
+    background-color: #00ffff;
+   
+}
+.navbar img{
+    width: 60;
+    height: 60;
+    border-radius: 50%;
+}
+.x {
+    font-size: 30  ;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#eb92dc 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    text-shadow: 2px 2px 10px rgb(250, 248, 248);
+}
+.nav-item a {
+    font-size: 20;
+    color: #00ffff;
+
+}
+.nav-item a:hover{
+    font-size: 30;
+    background: linear-gradient(to right,#f5f2f2 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+.nav-item  {
+    color: #00ffff;
+}
+.dropdown{
+    border: 2px solid #00ffff;
+    border-radius: 20px;
+}
+    .dropdown-menu {
+        position: absolute;
+        z-index: 5;
+        display: none;
+    }
+    /* .dropdown-menu:hover{
+        display: block;
+
+    } */
+
+    .d-flex button{
+        background-color: #00ffff;
+        border:1px solid #383d3d;
+        color: #383d3d;
+        font-size: 20;
+    }
+    .d-flex button:hover{
+        background-color: #fcfafa;
+        border: #383d3d;
+        color: #7c8080;
+    }
+    /* ................................section1-carousel..................................................... */
+   
+    .divicon {
+    position: fixed;
+    left: 1200px;
+    top: 150px;
+    background-color: transparent;
+    font-size: 50;
+    color: #00ffff8e;
+    z-index: 10;
+    /* margin: 30px 5px; */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+   }
+   .divicon a{
+    color: #00ffff8e;
+   }
+    #carouselExample{
+    position: relative;
+}
+    .carousel-inner{
+        width: 99%;
+        height: 100vh;
+        margin: auto;
+        /* position: absolute; */
+    }
+    .carousel-caption{
+        
+        background-color: #00ffff70;
+        font-size: 30;
+        border-radius: 20px;
+    }
+    .carousel-item img{
+        height: 600px;
+    }
+    
+     
+   /* .............................................section2.................................................................. */
+   .card2{
+   
+    background-color: #389e9ebb;
+    color: #f5f2f2;
+    font-size: 20;
+    border-radius: 20px;
+     text-align: center; 
+   }
+   .card2 h1{
+    font-size: 50;
+    background: linear-gradient(to top,#ce0975c4 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color:transparent;
+    text-transform: capitalize;
+    text-align: center;
+
+   }
+   .card2 .btn{
+     color:#389e9ebb;
+     font-size: 20;
+     font-weight: 700; 
+     box-shadow: 1px 1px 7px 3px rgb(165, 164, 164) inset;
+    
+    
+   }
+   /* ............................................................section3................................................................ */
+   .container3{
+   
+    height: 150px;
+    background-color: #389e9ebb;
+    color: #f5f2f2;
+    font-size: 25;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30;
+    
+
+
+   }
+   /* ...............................................................section4-accordion.................................................... */
+   .accordion-button{
+    font-size: 50;
+    background: linear-gradient(to top,rgba(206, 9, 117, 0.767) 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color:transparent;
+    text-transform: capitalize;
+
+
+   }
+   .accordion-item{
+    box-shadow: 2px 2px 20px 3px #2ff0f0b2;
+   }
+   /* ..................................................................section5-cards....................................................... */
+   .card5{
+   
+    border-radius: 10px;
+   }
+   .card5 .card-header{
+    background-color: #389e9ebb;
+    text-align: center;
+    color: #f5f2f2;
+   }
+   .card5 .card-body{
+    background-color: #00ffff44;
+    color: #7c8080;
+   }
+   .card5 .card-title a{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: #b4afaf;
+
+   }
+   .card5 .card-body textarea{
+     display: block; 
+    /* width: 900px;
+    height: 100px; */
+    /* margin-top: 20; */
+    border-radius: 20px;
+    border: 1px solid #668b8b6b;
+    
+   }
+   .card5 .btn{
+    margin: auto;
+   }
+   
+   
+   /* ................................................section6-card.............................................................. */
+   
+   .card6{
+    height: 300px;
+     background: #ffff url(../image/img1.jpg) no-repeat  fixed center; 
+     background-size: cover;
+   }
+   .card-body6{
+    height: 100px;
+    background-color: #00ffff44;
+    padding-top: 20;
+   }
+   .card-body6 h2{
+    font-size: 50;
+    text-align: center;
+    background-color: #00ffff44;
+    background: linear-gradient(to top,#ec1f90e3 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color:transparent;
+    text-transform: capitalize;}
+/* ...................................................section7........................................................................... */
+.col{
+   
+    position: relative;
+}
+.card7{
+   box-shadow: 2px 2px 20px 5px #383d3daf ;
+    /* margin:50px 50px; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   
+}
+/* .card7 .overley{
+    width: 100%;
+    height: 100%;
+    
+} */
+.card7 .btn {
+    background-color: #00ffff44;
+    margin-left: 50;
+    margin-bottom: 20;
+    /* color: #ffff; */
+}
+ .card7::after{
+    position: absolute;
+    content:"" ;
+    transition: 1s;
+    width: 0%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:#00ffff3d;
+
+
+}
+ .card7:hover::after{
+    width: 100%;
+    height: 100%;
+   
+}
+.card7::before{
+    position: absolute;
+    content:"" ;
+    transition: 1s;
+    width: 0%;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color:#00ffff3d;
+
+}
+.card7:hover::before{
+    width: 100%;
+    height: 100%;
+
+   
+}
+
+.card7 img{
+    width: 95%;
+    padding-left:5%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+}
+.card7 .card-body{
+    background-color: #ffff;
+    color: #137272;
+    padding-left: 10%;
+}
+
+
+  /* .....................................................section8............................................................... */
+  .card8{
+    height: 300px;
+     background: #ffff url(../image/EGYPT_files/IMG-20230227-WA0040.jpg) no-repeat  fixed center; 
+     background-size: cover;
+   }
+   .card-body8{
+    height: 100px;
+    background-color: #00ffff44;
+    padding-top: 20;
+   }
+   .card-body8 h2{
+    font-size: 50;
+    text-align: center;
+    background-color: #00ffff44;
+    background: linear-gradient(to top,rgba(206, 9, 117, 0.767) 0% ,#00ffff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color:transparent;
+    text-transform: capitalize;}
+    /* ...........................................section9.................................................................................. */
+.card9{
+    /* height: 400px; */
+    /* width: 300px; */
+    background: #ffffe1 url(../image/person1.jpeg)no-repeat center;
+    border-radius: 10px;
+    background-size: cover;
+    transition: 1s;
+}
+.mayan{
+    background: #ffffe1 url(../image/person2.jpeg)no-repeat center;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+.mariam{
+    background: #ffffe1 url(../image/person3.jpeg)no-repeat center;
+    border-radius: 10px;
+    background-size: cover;
+}
+.card9:hover{
+    transform:scale(0.9)
+}
+     .card9 .card-body{
+        height: 100%;
+        background-color: #1e1f1faf;
+        border-radius: 10px;
+        background: -webkit-linear-gradient(top,rgba(56, 61, 61, 0.952),#84c9c9a4);
+        /* box-shadow: 2px 2px 20px 3px #2a2b2b inset; */
+       
+     }
+     .card9 .card-body{
+        color: #ffff;
+        text-align: center;
+     }
+     /* .card9 img{
+        border-radius: 40%;
+     } */
+     /* ..................................................section10.................................................................... */
+     .card10 h2 {
+        font-size: 50;
+        background-color: #00ffff44;
+        background: linear-gradient(to top,#ce0975c4 0% ,#00ffff 100%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        text-transform: capitalize;
+
+     }
+     .card10{
+        font-size: 15px;
+        line-height: 25px;
+        transform-style: preserve-3d;
+     }
+     .postcard__bar{
+        width: 50px;
+        height: 5px;
+        background-color: #ce0975c4;
+        transition: 1s;
+     }
+     /* .card10:hover img{
+       
+        transform: scale(1.1,1.1);
+     } */
+    
+     
+      .card10:hover .postcard__bar{
+        transform: scale(1.4,1);
+      }
+     /* ....................................section 11.................................................... */
+
+     .card11{
+        background-color: #ffff;
+        box-shadow: 2px 2px 20px 5px #383d3daf ;
+        text-shadow: 2px 2px 5px #383d3daf;
+       
+     }
+     .card11 .img{
+        border-radius: 20;
+        
+     }
+     /* ............................................section 13.................................................... */
+   .ww  .img{
+    box-shadow: 2px 2px 20px 5px #ffff ;}
+    
